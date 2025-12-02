@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10324ddb91.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+        <div class="container">
+            <div class="header">
+
+                <div class="logo"><a href="home.html"><img src="myimages/logo6.jpg" alt=""></a></div>
+
+                 <i class="fa fa-bars" aria-hidden="true" id="menu"></i>
+                <div class="ul_links">
+                    
+                <ul>
+                    <a href="home.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="mission.html"><li>Mission</li></a>
+                    <a href="services.html"><li>Services</li></a>
+                    <a href="blog.html"><li>Blog</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <i class="fa fa-times" aria-hidden="true" id="close"></i>
+                </ul>
+                
+                <button class="register">Register</button>
+                <button class="login">Login</button>
+                
+                </div>
+            </div>
+            
+            <div class="mission_page">
+                <!-- <img src="" alt=""> -->
+                <h2>Reckoning Group Mission</h2>
+                <p>Empowering Your Digital World</p>
+            </div>
+            
+            <div class="mission_page-content">
+                <h2>Reckoning Networks</h2>
+                <p><span>Our Mission</span> is to Change How We Connect 
+                    and Uses the Internet, we're Planning a Major Boost to the Networking & Digital 
+                    Life here in Nigeria, a total Digital Revolution to Enhance Functionalility, Accessibility and Digital Security. Our Major Concern is that we Offer Quick Connection/Access to the Internet with a fast ratio and Minimum Spending, We Offer Cheap rates and Faster Router Connection and also Our Telecom System for Minimum Calling Charge and Many more.</p>
+
+            </div>
+
+                <h2 class="reviews">some of our Users Reviews on Reckoning</h2>
+            <div class="testimonials">
+
+                <div class="review_box">
+                    <img src="myimages/logo2.jpg" alt="">
+                    <p class="review">Used it and it Was Really Worth 
+                        Spending on.
+                    </p>
+                    <h3 class="name">Uchendu</h3>
+                    </div>
+
+                    <div class="review_box">
+                    <img src="" alt="">
+                    <p class="review">Was Really Afraid to get One for Myself,
+                        But After i Started Using it, I Was Happy I did.</p>
+                    <h3 class="name">Charles</h3>
+                    </div>
+
+                    <div class="review_box">
+                    <img src="" alt="">
+                    <p class="review">When I First came Across Reckoning Networks,
+                        i Said All of them Are the Same, but Now I do Refer People,
+                        because they are Really Worth it.
+                    </p>
+                    <h3 class="name">Chinedu</h3>
+
+                </div>
+
+            </div>
+           
+            <div class="mission_downpage">
+                <div class="image"></div>
+                <div class="offers">
+                    <h4>Join Us Today,to Start Benefiting</h4>
+                    <ul>
+                        <li>Cheap Internet Subscription</li>
+                        <li>Faster Internet Services</li>
+                        <li>High Telecom Packages</li>
+                        <li>Undisturbed Internet Connection</li>
+                        <li>Unlimited Browsing Packages(FREE)</li>
+                        <li>Wifi Internet Router</li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+
+            <div class="summary">
+                    <h2>Summary <div class="logo"></div></h2>
+                    <p>With all The Listed Services, You Can Never Worry About anything
+                        Related With Internet Services, You are at the Right Place. <br> to Know 
+                        more Concerning this Services. You Should Click <a href="contact.html">Here</a>
+                        to Enquiry More On it. Thankyou.
+                    </p>
+                </div>
+
+
+            <div class="footer">
+                <form action="">
+                <p>Send Us an Email Today</p>
+                <input type="email" value="email" placeholder="enter message">
+                <input type="submit" value="Send" id="submit">
+                <p>We Would be happy if you reach <br>out to us, Thankyou</p>
+                <input type="text" placeholder="email">
+                <input type="submit" value="Subscribe" id="submit">
+                </form>
+
+                <div class="contact">
+                    <h3>Contacts</h3>
+                    <p>Phone: <span><i class="fa fa-phone" aria-hidden="true"></i></span>+234-9011-772-683</p>
+                    <p>Email Us: <span><i class="fa fa-envelope" aria-hidden="true"></i></span> reckoninggroup@gmail.com</p>
+
+                </div>
+
+                <div class="socials">
+                    <h3>Socials</h3>
+                    <p><span><i class="fa fa-instagram" aria-hidden="true"></i></span> Instagram</p>
+                    <p><span><i class="fa fa-linkedin-square" aria-hidden="true"></i></span> Linkedin</p>
+                    <p><span><i class="fa fa-facebook-square" aria-hidden="true"></i></span> Facebook</p>
+                    <p><span><i class="fa fa-telegram" aria-hidden="true"></i> </span>Telegram</p>
+            
+                    
+                </div>
+
+                <div class="links">
+                    <h3>Quick Links</h3>
+                    <p><a href="">home</a></p>
+                    <p><a href="">about</a></p>
+                    <p><a href="">blog</a></p>
+                    <p><a href="">contact us</a></p>
+                    <p><a href="">services</a></p>
+                    <p><a href="">mission</a></p>
+                    
+                </div>
+
+                <div class="address">
+                <h3>Office HeadQuarters</h3>
+                <p>35 Olowu Street, Ikeja, Lagos</p>
+
+                <h3 class="branch">Branches</h3>
+                <p class="branch">14 Abigi Street, Ojodu Berger, Lagos</p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <script>
+            document.querySelector("#menu").onclick = ()=> {
+                document.querySelector(".ul_links").style.left = "0";
+            }
+            document.querySelector("#close").onclick = ()=> {
+                document.querySelector(".ul_links").style.left = "-100%";
+            }
+        </script>
+</body>
+</html>
